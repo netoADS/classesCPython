@@ -52,7 +52,6 @@ class LivroDAO:
         finally:
             cursor.close()
             
-            
     def excluir_livro(self, codLivro):
         try:
             cursor = self.conexao.cursor()
